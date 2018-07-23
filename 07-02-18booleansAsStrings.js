@@ -6,3 +6,4 @@ if(waterIsWet == skyIsBlue) console.log("Is")
 
 if(skyIsBlue == waterIsWet == "true") console.log("the truth")
 else console.log("a lie")
+//What does it print?

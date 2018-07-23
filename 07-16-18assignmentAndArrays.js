@@ -12,3 +12,4 @@ console.log("My to do list:")
 console.log("Monday:",		String(Monday))
 console.log("Friday:",		String(Friday))
 console.log("Saturday:", 	String(Saturday))
+//What does it print?

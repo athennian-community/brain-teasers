@@ -15,11 +15,14 @@ let commonFoods = ['eggs', 'squirrels'],
 // DOGGO
 let pupper = new Animal(data[0].name, data[0].sound, commonFoods)
 	pupper.foods.push('dog food')
-	pupper.makeSound()
+	pupper.makeSound() 
 	pupper.whatToFeed()
+//What does it print?
+
 
 // SNEKI
 let longBoi = new Animal(data[1].name, data[1].sound, commonFoods)
 	longBoi.foods.push('rats')
 	longBoi.makeSound()
 	longBoi.whatToFeed()
+//What does it print?
