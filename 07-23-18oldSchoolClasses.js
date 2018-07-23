@@ -1,21 +1,19 @@
 function Animal(name, sound, foods) {
 	this.name = name
 	this.sound = sound
-	this.foods = new Array(foods)
+	this.foods = foods
 
 	this.makeSound = () => console.log(this.sound)
 
-	this.whatToFeed = () => {
-		console.log(`${this.name}(s) can eat ${this.foods.toString()}\n`)
-	}
+	this.whatToFeed = () => console.log(`${this.name}(s) can eat ${this.foods.toString()}\n`)
 }
-let commonFoods = ['eggs', 'squirrels'],
-	data = [{name:'Dog', sound:'WOOF!'}, {name:'Snake', sound:'HISS!'}]
+let commonFoods = ['eggs', 'squirrels']
+let data = [{name:'Dog', sound:'WOOF!'}, {name:'Snake', sound:'HISS!'}]
 
 // DOGGO
 let pupper = new Animal(data[0].name, data[0].sound, commonFoods)
 	pupper.foods.push('dog food')
-	pupper.makeSound() 
+	pupper.makeSound()
 	pupper.whatToFeed()
 //What does it print?
 
